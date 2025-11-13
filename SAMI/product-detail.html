@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Produit - Royal Optique Médicale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Royal Optique Médicale" class="logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="lunettes.html" class="nav-link">Lunettes</a>
+                <a href="verres.html" class="nav-link">Verres Médicaux</a>
+                <a href="lentilles.html" class="nav-link">Lentilles</a>
+                <a href="commande.html" class="nav-link">Commander</a>
+                <a href="login.html" class="nav-link">Connexion</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="product-detail-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span class="separator">→</span>
+                <a href="#" id="breadcrumbCategory">Produits</a>
+                <span class="separator">→</span>
+                <span id="breadcrumbProduct">Détails</span>
+            </div>
+
+            <div class="product-detail-grid">
+                <div class="product-detail-image-section scroll-reveal">
+                    <div class="main-image-wrapper">
+                        <img id="detailProductImage" src="" alt="Product" class="product-detail-image">
+                    </div>
+                </div>
+
+                <div class="product-detail-info-section scroll-reveal">
+                    <h1 id="detailProductName" class="product-detail-name"></h1>
+                    <p id="detailProductDescription" class="product-detail-description"></p>
+                    
+                    <div class="product-detail-features">
+                        <h3>Caractéristiques</h3>
+                        <ul id="detailProductFeatures"></ul>
+                    </div>
+                    
+                    <div class="product-detail-specs">
+                        <h3>Spécifications</h3>
+                        <div id="detailProductSpecs" class="specs-grid"></div>
+                    </div>
+                    
+                    <div class="product-detail-actions">
+                        <button class="btn btn-primary detail-request-btn">
+                            <span class="btn-icon">📞</span>
+                            <span class="btn-text">DEMANDER</span>
+                        </button>
+                        <a href="commande.html" class="btn btn-gold">
+                            <span class="btn-icon">✨</span>
+                            <span class="btn-text">COMMANDER</span>
+                        </a>
+                    </div>
+
+                    <div class="product-back-link">
+                        <a href="#" id="backToCategory">← Retour à la collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-section">
+                    <img src="assets/logoB.png" alt="Royal Optique Médicale" class="footer-logo">
+                    <p>Votre spécialiste en optique médicale à Bouzareah, Alger.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="lunettes.html">Lunettes</a></li>
+                        <li><a href="verres.html">Verres</a></li>
+                        <li><a href="lentilles.html">Lentilles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📍 Bardi N42 local D, Bouzareah</li>
+                        <li>Alger 16001, Algérie</li>
+                        <li>📞 0556 96 41 51</li>
+                        <li>✉️ royaloptique90@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/royaloptiquemedicale" target="_blank" class="social-icon">Facebook</a>
+                        <a href="https://wa.me/213556964151" target="_blank" class="social-icon">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Royal Optique Médicale. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="product-detail.js"></script>
+</body>
+</html>
