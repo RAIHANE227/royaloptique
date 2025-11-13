@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunettes - Royal Optique Médicale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Royal Optique Médicale" class="logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="lunettes.html" class="nav-link active">Lunettes</a>
+                <a href="verres.html" class="nav-link">Verres Médicaux</a>
+                <a href="lentilles.html" class="nav-link">Lentilles</a>
+                <a href="commande.html" class="nav-link">Commander</a>
+                <a href="login.html" class="nav-link">Connexion</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Collection Lunettes</h1>
+            <p class="page-subtitle">Découvrez notre sélection exclusive de montures de luxe</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid-full">
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Luxury_tortoiseshell_eyeglasses_2eef655f.png')"></div>
+                    <div class="product-info">
+                        <h3>Prestige Noir</h3>
+                        <p>Monture classique en acétate noir, design intemporel et élégant</p>
+                        <button class="btn btn-small add-to-cart" data-product="Prestige Noir">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Rimless_luxury_eyeglasses_gold_c721b750.png')"></div>
+                    <div class="product-info">
+                        <h3>Élégance Dorée</h3>
+                        <p>Monture métal doré, finition premium avec détails raffinés</p>
+                        <button class="btn btn-small add-to-cart" data-product="Élégance Dorée">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Premium_prescription_eyeglasses_closeup_92dacfbf.png')"></div>
+                    <div class="product-info">
+                        <h3>Vision Moderne</h3>
+                        <p>Design contemporain minimaliste, ultra-léger en titane</p>
+                        <button class="btn btn-small add-to-cart" data-product="Vision Moderne">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Luxury_aviator_sunglasses_gold_1f5b283d.png')"></div>
+                    <div class="product-info">
+                        <h3>Luxe Aviateur</h3>
+                        <p>Style aviateur premium, monture métal avec verres anti-reflet</p>
+                        <button class="btn btn-small add-to-cart" data-product="Luxe Aviateur">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Wayfarer_sunglasses_black_gold_ec7b420d.png')"></div>
+                    <div class="product-info">
+                        <h3>Chic Écaille</h3>
+                        <p>Monture écaille de tortue, look sophistiqué et vintage</p>
+                        <button class="btn btn-small add-to-cart" data-product="Chic Écaille">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Vintage_gold_round_eyeglasses_d0fcb523.png')"></div>
+                    <div class="product-info">
+                        <h3>Raffinement Rond</h3>
+                        <p>Monture ronde vintage, acétate premium avec finition mate</p>
+                        <button class="btn btn-small add-to-cart" data-product="Raffinement Rond">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Cat-eye_vintage_luxury_eyeglasses_461e85c6.png')"></div>
+                    <div class="product-info">
+                        <h3>Excellence Cat-Eye</h3>
+                        <p>Style cat-eye féminin, monture élégante et audacieuse</p>
+                        <button class="btn btn-small add-to-cart" data-product="Excellence Cat-Eye">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/L1.png')"></div>
+                    <div class="product-info">
+                        <h3>Sport Dynamique</h3>
+                        <p>Monture sportive légère, confort optimal pour usage actif</p>
+                        <button class="btn btn-small add-to-cart" data-product="Sport Dynamique">Demander ce produit</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-reveal">
+                    <div class="product-image" style="background-image: url('assets/IMG/Luxury_optical_store_interior_3c4857a6.png')"></div>
+                    <div class="product-info">
+                        <h3>Cristal Transparent</h3>
+                        <p>Monture transparente moderne, style épuré et contemporain</p>
+                        <button class="btn btn-small add-to-cart" data-product="Cristal Transparent">Demander ce produit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="product-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-grid">
+                <div class="modal-image-section">
+                    <img id="modalProductImage" src="" alt="Product" class="modal-product-image">
+                </div>
+                <div class="modal-info-section">
+                    <h2 id="modalProductName" class="modal-product-name"></h2>
+                    <p id="modalProductDescription" class="modal-product-description"></p>
+                    
+                    <div class="modal-features">
+                        <h3>Caractéristiques</h3>
+                        <ul id="modalProductFeatures"></ul>
+                    </div>
+                    
+                    <div class="modal-specs">
+                        <h3>Spécifications</h3>
+                        <div id="modalProductSpecs" class="specs-grid"></div>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn btn-primary modal-request-btn">
+                            <span class="btn-icon">📞</span>
+                            <span class="btn-text">DEMANDER</span>
+                        </button>
+                        <a href="commande.html" class="btn btn-gold">
+                            <span class="btn-icon">✨</span>
+                            <span class="btn-text">COMMANDER</span>
+                        </a>
+                    </div>
+                    <div class="modal-back-link">
+                        <a href="lunettes.html">← Retour à la collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-section">
+                    <img src="assets/logoB.png" alt="Royal Optique Médicale" class="footer-logo">
+                    <p>Votre spécialiste en optique médicale à Bouzareah, Alger.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="lunettes.html">Lunettes</a></li>
+                        <li><a href="verres.html">Verres</a></li>
+                        <li><a href="lentilles.html">Lentilles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📍 Bardi N42 local D, Bouzareah</li>
+                        <li>Alger 16001, Algérie</li>
+                        <li>📞 0556 96 41 51</li>
+                        <li>✉️ royaloptique90@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/royaloptiquemedicale" target="_blank" class="social-icon">Facebook</a>
+                        <a href="https://wa.me/213556964151" target="_blank" class="social-icon">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Royal Optique Médicale. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
